@@ -1,6 +1,6 @@
 <template>
 	<view>
-			<h1 @tap="tap1">{{title}}</h1>
+			<h1 class="pink" @tap="tap1">{{title}}</h1>
 			<div>{{content}}</div>
 	</view>
 </template>
@@ -28,4 +28,5 @@
 </script>
 
 <style>
+	.pink{color:pink}
 </style>
