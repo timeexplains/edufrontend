@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="Enter" unicode="&#58902;" d="M914.318222 774.883556h-68.579555a9.159111 9.159111 0 0 1-9.159111-9.159112v-591.985777H281.173333V257.137778a9.159111 9.159111 0 0 1-14.876444 7.196444l-162.161778-128a9.130667 9.130667 0 0 1 0-14.392889l162.161778-128a9.159111 9.159111 0 0 1 14.876444 7.196445v85.703111h569.116445a73.216 73.216 0 0 1 73.159111 73.159111V765.724444a9.159111 9.159111 0 0 1-9.159111 9.159112z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

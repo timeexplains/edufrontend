@@ -41,13 +41,17 @@
 
 <style>
 	.resourceContainer{
-		 position: relative;
-		 display: flex;
-		 width: 100%;
-		 line-height:2;
-		 color:#c2c1c6;
-		 box-sizing: content-box;
-		 background:rgba(194,193,198,.1);
+		    position: relative;
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    width: 100%;
+		    line-height: 2;
+		    color: #c2c1c6;
+		    -webkit-box-sizing: content-box;
+		    box-sizing: content-box;
+			margin-bottom:40px;
 	}
 	.resource-title{
 		position: absolute;
@@ -61,14 +65,14 @@
 	}
 	.iconWrap{
 		margin-right: 10px;
-		width:24px;
-		height:24px;
+		width:30px;
+		height:30px;
 		flex-grow: 0;
 	}
 	.iconWrap img{
 		display: block;
-		width:100%;
-		height:100%;
+		width:30px;
+		height:30px;
 		border-radius: 50%;
 	}
 	.splitLine{
