@@ -1,0 +1,60 @@
+.resourceContainer{
+		    position: relative;
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    width: 100%;
+		    line-height: 2;
+		    color: #c2c1c6;
+		    -webkit-box-sizing: content-box;
+		    box-sizing: content-box;
+			margin-bottom:40px;
+	}
+.resourceContainer	.resource-title{
+		position: absolute;
+		left:0;
+		top:-28px;
+		height:20px;
+		line-height: 20px;
+		color:#201f26;
+		font-size:14px;
+		font-weight:700;
+	}
+.resourceContainer		.iconWrap{
+		margin-right: 10px;
+		width:30px;
+		height:30px;
+		flex-grow: 0;
+	}
+.resourceContainer		.iconWrap img{
+		display: block;
+		width:30px;
+		height:30px;
+		border-radius: 50%;
+	}
+.resourceContainer		.splitLine{
+		width:2px;	
+		margin-right:16px;
+		border-radius: 1px;
+		flex-grow: 0;
+		background-color: rgba(255, 203, 124, 0.3)
+	}
+.resourceContainer		.chat{
+		max-width:1076px;
+		word-break:break-all;
+		font-size:0;
+	}
+.resourceContainer		.content{
+		width:calc(100%-62px);
+		font-size:16px;
+		position:relative;
+	}
+.resourceContainer		.plugin-markdown{
+		display:inline-block;
+		width:100%;
+		height:100%;
+		font-size:16px;
+		word-break:break-word;
+		overflow: hidden;
+	}

@@ -1,14 +1,12 @@
 <template>
 	<view class="">
-		<!-- <mycomponent title="hi" content="content..." @tap1="tap"></mycomponent> -->
 <div class="lecture-container">
 <div class="view-container">
 <div class="view-main">
 	<div class="top-panel">
 <div class="reader forceUseInfiniteWrapper" style="scroll-behavior: auto;">
 	<div class="wrap" >
-		<row  v-for="item in items" v-if="item.type == 1" :content="item.content"></row>
-		<imageRow v-for="item in items" v-if="item.type == 2"  :imgPath="item.imgURL"></imageRow>
+		<rowAdapter  v-for="item in items" :type="item.typez`" :imgPath="item.imgURL" :content="item.content"></rowAdapter>
 	</div>			
 	</div>
 	</div>
@@ -28,10 +26,7 @@
 </template>
 
 <script>
-	import uniNumberBox from "@/components/uni-number-box/uni-number-box.vue"
-	import mycomponent  from "@/components/mycomponent.vue"
-	import row from "@/components/row.vue"
-	import imageRow from "@/components/image-row.vue"
+	import rowAdapter from "@/components/rowAdapter.vue"
 	import axios from 'axios'
 	
 	export default {
@@ -87,7 +82,7 @@
 						content:"今天要讲的主要内容就是【镜像世界的数据】，完成萌新的进化。让我们一起穿越到镜像世界里面，学习今天的课程。",
 					},
 					{
-						type:1,
+						type:2,
 						imgURL:"../static/pass1.png",
 					}
 					
@@ -98,9 +93,6 @@
 
 		},
 		methods: {
-			tap:function(e){
-					console.log(e);
-				},
 			nextSection:function(e){
 					 axios
 					      .get('http://localhost:8190/sect?lecture=1&pass=1&section=11')
@@ -117,10 +109,7 @@
 				}
 		},
 		components:{
-			uniNumberBox,
-			mycomponent,
-			row,
-			imageRow
+			rowAdapter
 		}
 		
 	}
