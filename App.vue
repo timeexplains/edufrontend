@@ -14,4 +14,10 @@
 
 <style>
 	/*每个页面公共css */
+	uni-app{
+		height:100vh;
+	}
+	uni-page-head{
+		height:10vh;
+	}
 </style>
